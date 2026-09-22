@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Ultimate Semester Planner"
+description = "A polished, print-ready semester planning workspace for college students, with local browser saving, editable study trackers, and A4 export-friendly pages."
+version = "1.0.0"
+id = "artifacts/semester-planner"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25830
+
+[services.development]
+run = "pnpm --filter @workspace/semester-planner run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/semester-planner", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/semester-planner/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25830"
+BASE_PATH = "/"

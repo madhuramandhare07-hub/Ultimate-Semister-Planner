@@ -1,0 +1,409 @@
+Build a professional, printable "Ultimate Semester Planner" web application for college and university students.
+
+IMPORTANT:
+- This should be a polished, production-quality product that could eventually be sold as a digital planner.
+- Use only free/open-source libraries and assets.
+- Do not use copyrighted images, logos, or paid assets.
+- Make the design original.
+- The application must work fully without requiring a backend.
+- Make it responsive for desktop, tablet, and mobile.
+- Use localStorage so user-entered information is saved in the browser.
+- Add a Print / Export to PDF button using browser print functionality.
+- The planner should be designed primarily for A4 printing.
+
+TECH STACK:
+- React
+- TypeScript
+- Tailwind CSS
+- Lucide React icons
+- No unnecessary dependencies
+- Clean component-based architecture
+
+DESIGN:
+Create a modern, minimal, premium student-planner aesthetic.
+Use lots of white space, soft rounded cards, subtle shadows, clean typography, and a professional academic appearance.
+Use a soft lavender/blue accent palette but keep the pages printer-friendly.
+Avoid an overly childish design.
+The final product should look like something that could realistically be sold as a $3–$10 digital planner.
+
+APP NAME:
+"Ultimate Semester Planner"
+
+MAIN FEATURES:
+
+1. DASHBOARD
+Create a beautiful dashboard with:
+- Student name
+- Course
+- College
+- Semester
+- Academic year
+- Overall semester progress
+- Current week
+- Upcoming deadlines
+- Quick links to planner sections
+
+Include cards for:
+- Semester Goals
+- Subjects
+- Assignments
+- Exams
+- Study Progress
+- Habits
+
+2. STUDENT PROFILE PAGE
+Fields:
+- Name
+- College/University
+- Course
+- Branch/Major
+- Semester
+- Academic Year
+- Roll Number
+- Email
+
+Save all information using localStorage.
+
+3. SEMESTER GOALS
+Create sections for:
+- Academic Goals
+- Personal Goals
+- Career Goals
+- Skills I Want to Learn
+
+Each goal should have:
+- Goal title
+- Description
+- Target date
+- Progress
+- Completed checkbox
+
+4. SUBJECT OVERVIEW
+Create a table where students can add subjects.
+
+Columns:
+- Subject
+- Faculty
+- Credits
+- Target Grade
+- Current Grade
+- Progress
+- Notes
+
+Allow adding and deleting subjects.
+
+5. CLASS TIMETABLE
+Create a weekly timetable:
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+
+Time slots should be editable.
+
+6. MONTHLY PLANNER
+Allow students to select a month.
+
+Each monthly page should contain:
+- Calendar
+- Monthly goals
+- Important dates
+- Assignments due
+- Exams
+- Events
+- Notes
+
+7. WEEKLY STUDY PLANNER
+Create a weekly planning page with:
+
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+Sunday
+
+For every day include:
+- Main task
+- Subject
+- Study hours
+- Priority
+- Completed checkbox
+
+8. DAILY STUDY PLANNER
+Create:
+- Date
+- Today's top 3 priorities
+- Study sessions
+- Subject
+- Topic
+- Start time
+- End time
+- Breaks
+- Notes
+- Today's achievements
+
+9. ASSIGNMENT TRACKER
+Table:
+- Subject
+- Assignment
+- Description
+- Due date
+- Priority
+- Status
+- Submission checkbox
+
+Status options:
+- Not Started
+- In Progress
+- Completed
+
+10. EXAM TRACKER
+Table:
+- Subject
+- Exam date
+- Exam time
+- Topics
+- Preparation progress
+- Revision 1
+- Revision 2
+- Revision 3
+
+11. STUDY PROGRESS
+Create a visual progress tracker for every subject.
+
+Show:
+- Subject
+- Total topics
+- Completed topics
+- Remaining topics
+- Percentage progress
+
+Use progress bars.
+
+12. HABIT TRACKER
+Allow users to create habits.
+
+Examples:
+- Study 2 hours
+- Practice coding
+- Read notes
+- Exercise
+- Sleep on time
+- Drink water
+
+Create a monthly 1–31 day grid with clickable checkboxes.
+
+13. GRADE TRACKER
+Create a table for:
+- Subject
+- Assignment marks
+- Internal marks
+- Practical marks
+- Midterm
+- Final exam
+- Total
+- Grade
+
+Automatically calculate totals where possible.
+
+14. REVISION TRACKER
+Create:
+- Subject
+- Topic
+- Revision 1
+- Revision 2
+- Revision 3
+- Revision 4
+- Confidence level
+
+15. NOTES PAGE
+Provide a clean lined/dotted notes area.
+
+Allow users to create multiple note pages.
+
+16. IMPORTANT DATES
+Allow users to add:
+- Exam
+- Assignment
+- Practical
+- Viva
+- Project submission
+- Event
+- Other
+
+Display upcoming dates on the dashboard.
+
+17. SEMESTER REFLECTION
+At the end include:
+- What I achieved
+- What I learned
+- My biggest challenge
+- What I improved
+- Skills I developed
+- What I want to improve next semester
+
+18. PRINTABLE PLANNER MODE
+This is VERY IMPORTANT.
+
+Create a dedicated "Print Planner" mode.
+
+The printed pages must:
+- Use A4 dimensions
+- Have clean margins
+- Hide navigation bars and buttons
+- Remove unnecessary UI elements
+- Avoid dark backgrounds
+- Use printer-friendly colors
+- Keep tables inside page boundaries
+- Avoid cutting content between pages where possible
+
+Use CSS @media print.
+
+Create a "Print Current Page" button.
+
+Also create "Print Entire Planner".
+
+19. PDF EXPORT
+Add an "Export / Print PDF" button.
+
+Use browser print functionality rather than requiring a paid PDF service.
+
+20. DATA MANAGEMENT
+Add:
+- Save automatically
+- Reset planner
+- Export planner data as JSON
+- Import planner data from JSON
+
+Use localStorage.
+
+21. NAVIGATION
+Create a left sidebar on desktop.
+
+Navigation:
+Dashboard
+My Profile
+Goals
+Subjects
+Timetable
+Monthly Planner
+Weekly Planner
+Daily Planner
+Assignments
+Exams
+Study Progress
+Habit Tracker
+Grade Tracker
+Revision Tracker
+Notes
+Important Dates
+Semester Reflection
+Print Planner
+
+On mobile, convert the sidebar into a hamburger menu.
+
+22. SAMPLE DATA
+Include realistic sample data on first launch so the application doesn't look empty.
+
+Use fictional data only.
+
+Example:
+Student:
+Name: Alex Morgan
+Course: Bachelor of Technology
+Branch: Information Technology
+Semester: 5
+Academic Year: 2026–27
+
+Subjects:
+- Data Structures
+- Database Management Systems
+- Java Programming
+- Operating Systems
+- Computer Networks
+
+Make it clear that sample data can be edited or deleted.
+
+23. LANDING / COVER PAGE
+Create a beautiful cover page for the planner:
+
+ULTIMATE
+SEMESTER PLANNER
+
+"Plan • Study • Track • Achieve"
+
+Include:
+- Name
+- Course
+- Semester
+- Academic Year
+
+Make this page especially attractive because it should look good when exported/printed.
+
+24. PRODUCT QUALITY
+The final application should feel like a premium digital product.
+
+Use:
+- Consistent spacing
+- Consistent typography
+- Reusable components
+- Clear empty states
+- Helpful tooltips
+- Smooth but subtle animations
+- Accessible buttons
+- Keyboard-friendly inputs
+- Responsive layout
+
+Do NOT:
+- Use excessive animations
+- Use random gradients everywhere
+- Use copyrighted illustrations
+- Add fake testimonials
+- Add fake statistics
+- Add unnecessary login/signup
+- Add payment functionality
+- Require a backend
+
+25. FILE STRUCTURE
+
+Organize the project cleanly:
+
+src/
+  components/
+  pages/
+  layouts/
+  hooks/
+  utils/
+  types/
+  data/
+  styles/
+
+Create reusable components such as:
+- Button
+- Card
+- Modal
+- Table
+- ProgressBar
+- Checkbox
+- DatePicker
+- PlannerSection
+- PrintHeader
+
+Before finishing:
+1. Run the application.
+2. Check every page.
+3. Fix TypeScript errors.
+4. Fix responsive issues.
+5. Test localStorage.
+6. Test adding/deleting subjects.
+7. Test assignment tracking.
+8. Test habit tracking.
+9. Test print mode.
+10. Test export/import JSON.
+11. Make sure there are no broken buttons or placeholder pages.
+
+The final result should be a complete working semester planner, not just a UI mockup.
