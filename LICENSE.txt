@@ -1,0 +1,32 @@
+# Ultimate Semester Planner — End-User License
+
+Copyright (c) 2026 Madhura Mandhare
+
+This license applies to the commercial package distributed with Ultimate Semester Planner.
+
+## You may
+
+- Install and run the planner for your own personal or internal use.
+- Modify the source code for your own use.
+- Deploy your modified copy for yourself, your organization, or your own website.
+- Use the included planner templates and PDF features in your own study/planning workflow.
+
+## You may not
+
+- Resell, redistribute, sublicense, or share the source-code package as a standalone product.
+- Upload the source files to a public repository for redistribution.
+- Sell the original or substantially unchanged planner as another template, app, source-code bundle, or digital download.
+- Claim the original source code or design as your own work.
+- Provide the purchased files to other people as a substitute for their own purchase.
+
+## Third-party software
+
+The project uses open-source libraries listed in the package manifests. Those libraries remain subject to their respective licenses.
+
+## No warranty
+
+The software is provided as-is and without a guarantee for a particular academic, business, device, browser, or hosting requirement.
+
+## Ownership
+
+The original project, source code, design, and documentation remain the property of the copyright holder except where third-party components are concerned.
