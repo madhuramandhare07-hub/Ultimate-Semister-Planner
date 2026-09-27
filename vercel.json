@@ -1,7 +1,7 @@
 {
   "buildCommand": "pnpm --filter ultimate-semester-planner build",
   "outputDirectory": "artifacts/semester-planner/dist",
-  "installCommand": "pnpm install",
+  "installCommand": "pnpm install --no-frozen-lockfile",
   "framework": "vite",
   "rewrites": [
     {
