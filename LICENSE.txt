@@ -2,31 +2,41 @@
 
 Copyright (c) 2026 Madhura Mandhare
 
-This license applies to the commercial package distributed with Ultimate Semester Planner.
+This license applies to the digital software/template package distributed as **Ultimate Semester Planner**.
 
-## You may
+## License grant
 
-- Install and run the planner for your own personal or internal use.
-- Modify the source code for your own use.
-- Deploy your modified copy for yourself, your organization, or your own website.
-- Use the included planner templates and PDF features in your own study/planning workflow.
+After purchase, the purchaser receives a non-exclusive, non-transferable license to:
+
+- Install and run the planner for personal or internal organizational use.
+- Modify the source code for personal or internal organizational use.
+- Deploy a modified copy on the purchaser's own website, hosting account, or local device.
+- Use the included planner interface, templates, and PDF features as part of the purchaser's own planning workflow.
 
 ## You may not
 
-- Resell, redistribute, sublicense, or share the source-code package as a standalone product.
-- Upload the source files to a public repository for redistribution.
+- Resell, redistribute, sublicense, rent, or share the source-code package as a standalone product.
+- Upload or publish the source package for public redistribution.
 - Sell the original or substantially unchanged planner as another template, app, source-code bundle, or digital download.
-- Claim the original source code or design as your own work.
-- Provide the purchased files to other people as a substitute for their own purchase.
-
-## Third-party software
-
-The project uses open-source libraries listed in the package manifests. Those libraries remain subject to their respective licenses.
-
-## No warranty
-
-The software is provided as-is and without a guarantee for a particular academic, business, device, browser, or hosting requirement.
+- Give the purchased source package to another person as a substitute for their own purchase.
+- Remove or misrepresent the original copyright or license notices.
 
 ## Ownership
 
-The original project, source code, design, and documentation remain the property of the copyright holder except where third-party components are concerned.
+The original project, source code, design, documentation, and original content remain the property of the copyright holder except where third-party components are concerned. This license grants usage rights; it does not transfer ownership of the underlying intellectual property.
+
+## Third-party software
+
+The project uses open-source libraries listed in the package manifests. Those libraries remain subject to their respective licenses. This end-user license does not replace or restrict those third-party licenses.
+
+## Disclaimer
+
+The software/template is provided "as is" without a guarantee for a particular academic, business, device, browser, or hosting requirement. The purchaser is responsible for reviewing any modified deployment before publishing it.
+
+## Termination
+
+This license terminates automatically if the purchaser materially violates the restrictions above. Upon termination, the purchaser must stop distributing or using the package and delete copies that are not otherwise permitted by applicable third-party licenses.
+
+## Questions
+
+For support or licensing questions, contact the seller through the marketplace or sales channel from which the product was purchased.
