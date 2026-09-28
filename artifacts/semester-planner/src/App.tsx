@@ -30,13 +30,13 @@ const dayISO = (add: number) => { const d = new Date(); d.setDate(d.getDate() + 
 const todayISO = () => new Date().toISOString().slice(0, 10);
 
 const initialState = (): PlannerState => ({
-  profile: { name: 'Alex Morgan', college: 'Northbridge Institute of Technology', course: 'Bachelor of Technology', branch: 'Information Technology', semester: '5', year: '2026–27', roll: 'BIT-25-041', email: 'alex.morgan@example.com' },
+  profile: { name: 'Your Name', college: 'Your College / University', course: 'Your Degree', branch: 'Your Branch', semester: '1', year: '2026–27', roll: 'Your Roll No.', email: 'you@example.com' },
   subjects: [
-    { id: 'sub-1', name: 'Data Structures', faculty: 'Dr. N. Iyer', credits: 4, target: 'A', current: 'B+', progress: 68, notes: 'Focus on graphs and dynamic programming.' },
-    { id: 'sub-2', name: 'Database Management Systems', faculty: 'Prof. A. Rao', credits: 4, target: 'A', current: 'A−', progress: 74, notes: 'Build the library schema project.' },
-    { id: 'sub-3', name: 'Java Programming', faculty: 'Dr. M. Shah', credits: 3, target: 'A', current: 'B+', progress: 61, notes: 'Practice collections and concurrency.' },
-    { id: 'sub-4', name: 'Operating Systems', faculty: 'Prof. K. Menon', credits: 4, target: 'A−', current: 'B', progress: 52, notes: 'Revise scheduling algorithms.' },
-    { id: 'sub-5', name: 'Computer Networks', faculty: 'Dr. P. Thomas', credits: 3, target: 'A', current: 'A−', progress: 80, notes: 'Packet analysis lab due soon.' },
+    { id: 'sub-1', name: 'Data Structures', faculty: 'Faculty Name', credits: 4, target: 'A', current: 'B+', progress: 68, notes: 'Focus on graphs and dynamic programming.' },
+    { id: 'sub-2', name: 'Database Management Systems', faculty: 'Faculty Name', credits: 4, target: 'A', current: 'A−', progress: 74, notes: 'Build the library schema project.' },
+    { id: 'sub-3', name: 'Java Programming', faculty: 'Faculty Name', credits: 3, target: 'A', current: 'B+', progress: 61, notes: 'Practice collections and concurrency.' },
+    { id: 'sub-4', name: 'Operating Systems', faculty: 'Faculty Name', credits: 4, target: 'A−', current: 'B', progress: 52, notes: 'Revise scheduling algorithms.' },
+    { id: 'sub-5', name: 'Computer Networks', faculty: 'Faculty Name', credits: 3, target: 'A', current: 'A−', progress: 80, notes: 'Packet analysis lab due soon.' },
   ],
   goals: [
     { id: 'goal-1', category: 'Academic', title: 'Finish the systems reading list', description: 'Complete one chapter before each OS seminar.', date: dayISO(34), progress: 64, completed: false },
@@ -118,9 +118,9 @@ function Shell({ children, state, onImport, onReset, onPrint, onDownloadPdf }: {
   return <div className="planner-app">
     {open && <div className="sidebar-scrim" onClick={() => setOpen(false)} />}
     <aside className={`app-sidebar ${open ? 'open' : ''}`}>
-      <div className="brand-mark"><div className="brand-icon"><Leaf size={19} /></div><div><div className="brand-name">Semester<br />Planner</div><div className="brand-sub">a quiet place to begin</div></div></div>
+      <div className="brand-mark"><div className="brand-icon"><Leaf size={19} /></div><div><div className="brand-name">Semester<br />Planner</div><div className="brand-sub">plan • track • grow</div></div></div>
       <div className="nav-list">{navGroups.map(group => <div key={group.label}><div className="nav-label">{group.label}</div>{group.items.map(([href, label, Icon]) => <Link key={href} href={href} className={`nav-item ${active === href ? 'active' : ''}`} onClick={() => setOpen(false)} data-testid={`link-${label.toLowerCase().replaceAll(' ', '-')}`}><Icon size={17} /><span>{label}</span></Link>)}</div>)}</div>
-      <div className="sidebar-footer"><div style={{ display: 'flex', alignItems: 'center', gap: 6 }}><Cloud size={13} /> Saved locally</div><div>Everything stays in this browser.</div></div>
+      <div className="sidebar-footer"><div style={{ display: 'flex', alignItems: 'center', gap: 6 }}><Cloud size={13} /> Private & local</div><div>Your planner data stays in your browser.</div></div>
     </aside>
     <div className="main-shell">
       <div className="mobile-topbar"><button className="menu-button" onClick={() => setOpen(true)} aria-label="Open navigation" data-testid="button-open-navigation"><Menu size={21} /></button><div className="mobile-brand"><span className="brand-icon" style={{ width: 27, height: 27 }}><Leaf size={15} /></span>Semester Planner</div><button className="menu-button" onClick={onPrint} aria-label="Print page" data-testid="button-mobile-print"><Printer size={18} /></button></div>
