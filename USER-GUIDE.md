@@ -1,45 +1,62 @@
-# Ultimate Semester Planner — User Guide
+# Ultimate Semester Planner — Customer User Guide
 
-## What this product does
+## What you receive
 
-A browser-based student planner for organizing a semester in one place: planning, tracking, study progress, habits, grades, revision, notes, important dates, reflection, JSON backup, and PDF export.
+This is a digital student semester planner web-app template. It includes:
+
+- React + TypeScript + Vite source code
+- Responsive planner interface
+- Semester dashboard and academic trackers
+- JSON backup/import
+- Personalized and blank A4 PDF export
+- End-user license
+
+No physical product is shipped.
 
 ## Quick start
 
-1. Open the deployed website or run the project locally.
-2. Open **My Profile** and replace the sample student information.
-3. Add subjects and current progress.
-4. Add goals, assignments, exams, and important dates.
-5. Fill the timetable and weekly/daily plans.
-6. Use the trackers during the semester.
-7. Export JSON regularly for backup.
-8. Use **Print Planner** or PDF export for a printable copy.
+1. Extract the ZIP file.
+2. Open a terminal in `artifacts/semester-planner`.
+3. Install Node.js 20+ if it is not already installed.
+4. Run `npm install`.
+5. Run `npm run dev`.
+6. Open the local URL shown by Vite.
+7. Open **My Profile** and replace the placeholder student information.
+8. Replace the demo subjects, goals, assignments, exams, dates, and habits with your own data.
+
+## Production build
+
+Run:
+
+```bash
+npm run build
+npm run preview
+```
+
+The production files are created in `dist`.
 
 ## Backup and restore
 
-Use **Export** to download planner data as JSON and **Import** to restore it. Because data is stored in the browser, clearing browser/site data can remove the current planner. Keep a backup.
+Use **Export** to download planner data as JSON and **Import** to restore it. Because planner data is stored in the browser, clearing browser/site data can remove the current planner. Keep regular backups.
 
 ## PDF
 
-- **Personalized PDF:** uses current planner data.
-- **Blank PDF:** creates a clean printable planner without sample data.
+- **Personalized PDF** uses your current planner data.
+- **Blank PDF** creates a clean printable planner without personal data.
+- **Print Planner** can be used directly from the browser.
 
-## Local installation
+## Privacy
 
-Requirements: Node.js 20+, npm 10+ or pnpm 9+.
+The planner does not require an account or backend database. Planner information is stored locally in the browser.
 
-From `artifacts/semester-planner`:
+## License
 
-    npm install
-    npm run dev
+Use and customize the product according to the included `LICENSE.txt`. Do not redistribute or resell the source package.
 
-For production:
+## Troubleshooting
 
-    npm run build
-    npm run preview
+If `npm install` fails, confirm that Node.js 20+ and npm 10+ are installed. If the app opens but old data appears, use the planner's reset option or clear the site's local storage and reload.
 
-## Important
+## Support
 
-The first-load information is placeholder data. Replace it before using the planner for real academic records.
-
-The application does not require a backend database or account. Planner data is kept in browser local storage.
+For product-specific questions, contact the seller through the marketplace or sales channel where you purchased the product.
